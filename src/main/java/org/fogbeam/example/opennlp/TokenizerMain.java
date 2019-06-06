@@ -64,6 +64,12 @@ public class TokenizerMain {
 		return getTxt();
 	}
 
+	
+	/**
+	 * Function to tokenizer a input. this take a text and then it transfor to tokens
+	 * @param texto
+	 * @throws Exception
+	 */
 	public void Tokenizer(String texto) throws Exception {
 		InputStream modelIn = new FileInputStream("models/en-token.model");
 
